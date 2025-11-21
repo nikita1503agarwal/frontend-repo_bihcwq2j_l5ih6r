@@ -1,9 +1,9 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Cpu, MessageCircle, BarChart3, Workflow, Globe2, Timer } from 'lucide-react'
+import { Cpu, MessageCircle, BarChart3, Sparkles, Globe2, Timer } from 'lucide-react'
 import { useLang } from './LanguageProvider'
 
-const icons = [Timer, MessageCircle, Workflow, Globe2, BarChart3, Cpu]
+const icons = [Timer, MessageCircle, Sparkles, Globe2, BarChart3, Cpu]
 
 export default function Features() {
   const { t, lang } = useLang()
